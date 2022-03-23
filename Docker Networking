@@ -1,0 +1,6 @@
+
+bridge : default n/w
+host: docker swarm
+overlay:
+macvlan:
+c
