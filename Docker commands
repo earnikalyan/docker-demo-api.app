@@ -1,0 +1,15 @@
+Docker commands 
+###############
+
+docker run images
+docker push image
+docker pull image
+docker images
+docker ps
+docker ps -a
+docker rm
+docker rmi
+docker rm -rf
+docker rmi -rf
+docker save image
+docker load image
