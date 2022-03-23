@@ -7,4 +7,9 @@ c
 
 172.17.0.0/16   docker 0 --172.17.0.1
  ip a
- 
+
+
+
+docker run -d(demon) nginx
+docker exec -it container name /bin/bash---conmnect to particular container
+docker inspect conatiner id --- it show the container ip address
