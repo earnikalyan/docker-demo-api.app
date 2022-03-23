@@ -13,3 +13,20 @@ docker rm -rf
 docker rmi -rf
 docker save image
 docker load image
+docker start 
+docker stop
+docker kill
+docker commit
+Dockerfile
+FROM python
+MAINTAINER kalyan <kalyan@gmail.com>
+ADD ./repo name /etc/yum.rep.d/
+RUN yum --assumeyes update && \
+yum --a ssumeyes install \
+nmap iproute && \
+bash && \
+yum clean all
+CMD ["/usr/bin/nmap", "-sn"/ "192.168.1.0/24"]
+
+docker build
+  
