@@ -4,3 +4,7 @@ host: docker swarm
 overlay:
 macvlan:
 c
+
+172.17.0.0/16   docker 0 --172.17.0.1
+ ip a
+ 
